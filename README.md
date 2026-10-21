@@ -26,6 +26,7 @@
 | **Instant, business-specific answers 24/7** | **Neoline WhatsApp customer service bot**: answers any question about Neoline's services from its own service information and FAQs using RAG, so customers get accurate replies without waiting for staff | n8n, WhatsApp Cloud API, Qdrant, OpenAI embeddings |
 | **500+ queries a month, 90% solved without staff** | **RAG support chatbots** for [Sylink](https://sylink.tecclubx.site) and [SecureTapVPN](https://securetapvpn.com), with handoff to a live agent and automatic hand-back to the bot | n8n, Qdrant, OpenAI embeddings |
 | **90% accuracy** on clear meal photos | **[FoodMate](https://foodmate.xapcoders.com) nutrition backend**: a vision-language model names the meal and estimates calories and macros, plus an AI nutrition coach | VLM, REST API |
+| **12 hours a week saved**, stronger brand engagement | **LinkedIn & SEO blog automation**: a LinkedIn workflow for Tecclub Technology that publishes posts and sends outreach messages, plus a blog pipeline that writes SEO-optimised articles and creates a matching image for each one. Guardrails and an LLM-as-judge review the content before it goes out | n8n, OpenAI, LinkedIn API, guardrails, LLM-as-judge |
 | **25 hours a week saved** | **Business workflow automation** (Tecclub Technology): n8n workflows that connect ML models to business systems through REST APIs and webhooks | n8n, REST APIs, webhooks |
 
 <sub>Client code is private. I'm happy to walk through the architecture of any of these in an interview.</sub>
@@ -44,9 +45,9 @@
 
 | Area | Tools |
 | --- | --- |
-| Agents & LLMs | LangGraph, LangChain, LangSmith, OpenAI API, tool calling, multi-agent workflows, VLMs |
+| Agents & LLMs | LangGraph, LangChain, LangSmith, OpenAI API, tool calling, multi-agent workflows, VLMs, guardrails, LLM-as-judge evaluation |
 | RAG & search | Qdrant, hybrid search (dense + BM25), reranking, embeddings, ChromaDB |
-| Automation | n8n, WhatsApp Cloud API, GoHighLevel, ElevenLabs, Apollo, Zapier, webhooks |
+| Automation | n8n, WhatsApp Cloud API, LinkedIn API, GoHighLevel, ElevenLabs, Apollo, Zapier, webhooks |
 | Backend & data | Python, FastAPI, Flask, Node.js, React, PostgreSQL, Redis, MongoDB, Docker |
 | ML & computer vision | TensorFlow, scikit-learn, OpenCV, MediaPipe, CNNs, fine-tuning |
 
