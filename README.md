@@ -20,12 +20,13 @@
 
 | Result | What I built | Stack |
 | --- | --- | --- |
-| **+30% revenue** in the first month | Lead-generation system for DevelMO: Apollo leads, AI-personalised emails and follow-ups, sentiment analysis on replies, and a meeting booked for every positive reply | GoHighLevel, Apollo, LLMs |
-| **95% accuracy** understanding callers | [AI voice cold-calling agent](https://develmo.com/our-products/ai-voice-agent) that personalises each call from CRM data. Now sold as a DevelMO product | ElevenLabs, CRM API |
-| **24/7 sales on WhatsApp** | Sales and support bot for a Dubai car-battery company. It remembers returning customers, alerts the team after each sale and lets staff take over any chat | n8n, WhatsApp Cloud API, PostgreSQL |
-| **500+ queries a month, 90% solved without staff** | RAG support chatbots for [Sylink](https://sylink.tecclubx.site) and [SecureTapVPN](https://securetapvpn.com), with handoff to a live agent | n8n, Qdrant, OpenAI embeddings |
-| **90% accuracy** on clear meal photos | [FoodMate](https://foodmate.xapcoders.com) backend: a vision-language model names the meal and estimates calories and macros, plus an AI nutrition coach | VLM, REST API |
-| **25 hours a week saved** | Workflow automations that connect ML models to business systems at Tecclub Technology | n8n, REST APIs, webhooks |
+| **+30% revenue** in the first month | **GoHighLevel CRM lead generation** (DevelMO): B2B leads pulled from Apollo, cleaned and stored in GoHighLevel, AI-personalised emails with automated follow-ups, sentiment analysis on every reply, and a meeting booked for each positive one | GoHighLevel, Apollo, LLMs |
+| **95% accuracy** understanding callers | **[AI voice cold-calling agent](https://develmo.com/our-products/ai-voice-agent)** (DevelMO): pulls each lead from the CRM and opens the call with a personalised message. Now sold as a DevelMO product | ElevenLabs, CRM API |
+| **24/7 sales on WhatsApp** | **CarBatterySquad WhatsApp sales & support bot** (Dubai): handles battery and jump-start enquiries from the first message to a closed sale, remembers returning customers, alerts the team after every sale or complaint, and lets staff take over any chat | n8n, WhatsApp Cloud API, LLM, PostgreSQL |
+| **Instant, business-specific answers 24/7** | **Neoline WhatsApp customer service bot**: answers any question about Neoline's services from its own service information and FAQs using RAG, so customers get accurate replies without waiting for staff | n8n, WhatsApp Cloud API, Qdrant, OpenAI embeddings |
+| **500+ queries a month, 90% solved without staff** | **RAG support chatbots** for [Sylink](https://sylink.tecclubx.site) and [SecureTapVPN](https://securetapvpn.com), with handoff to a live agent and automatic hand-back to the bot | n8n, Qdrant, OpenAI embeddings |
+| **90% accuracy** on clear meal photos | **[FoodMate](https://foodmate.xapcoders.com) nutrition backend**: a vision-language model names the meal and estimates calories and macros, plus an AI nutrition coach | VLM, REST API |
+| **25 hours a week saved** | **Business workflow automation** (Tecclub Technology): n8n workflows that connect ML models to business systems through REST APIs and webhooks | n8n, REST APIs, webhooks |
 
 <sub>Client code is private. I'm happy to walk through the architecture of any of these in an interview.</sub>
 
